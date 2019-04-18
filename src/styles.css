@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    color: #3f4257;
+    background-color: #e8ebf0;
+}
+
+.main_header{
+    height: 63px !important;
+        background-color: #0b5c99;
+}
+
+.projName{
+    color: #fff;
+    font-size: 20px;
+    font-family: AndesBold; 
+    display: inline-block;
+    padding: 19px;
+}

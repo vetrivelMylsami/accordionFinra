@@ -1,5 +1,11 @@
 # Finra
 
+## About project
+1) Check console to check the status of Accordions
+
+2) We can open/close Accordion not only by 'click', also can 'tab to another Accordion & hit Enter-key to open/close'
+3) Components are used under each accordion-section, possible use cases upon closing/opening Accordion can be invoked when open/close events are emitted
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Development server

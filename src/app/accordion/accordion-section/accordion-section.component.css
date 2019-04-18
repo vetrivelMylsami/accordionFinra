@@ -1,0 +1,40 @@
+.accordion {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 10px;
+}
+
+.accordion-title {
+    margin: auto;   
+    background-color: #f7f7f6;
+ 
+}
+.accordion-title:focus {
+    outline: none;
+}
+
+.accordion-title span {
+    cursor: pointer;
+    padding: 7px;
+    display: inline-block;
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+}
+.accordion-title span:hover {
+    text-decoration: underline !important;
+}
+.accordion-title span:focus {
+    outline-color: #f7f7f6;
+    font-weight:bold !important
+}
+
+.accordion-item+div {
+    padding: 10px;
+}
+
+.accordion-item:focus {
+    outline: none;
+}
