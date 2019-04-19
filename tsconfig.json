@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "accordion-finra-lib": [
+        "dist/accordion-finra-lib"
+      ],
+      "accordion-finra-lib/*": [
+        "dist/accordion-finra-lib/*"
+      ]
+    }
   }
 }

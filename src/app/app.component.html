@@ -4,25 +4,25 @@
 <div class="container">
   <accordion>
 
-    <app-accordion-section heading="Texas" [isOpen]="true" (onClose)="texasAccordionClose.next()"
+    <accordion-section title="Texas" [isOpen]="true" (onClose)="texasAccordionClose.next()"
       (onOpen)="texasAccordionOpen.next()">
       <app-texas></app-texas>
-    </app-accordion-section>
+    </accordion-section>
 
-    <app-accordion-section heading="Arizona" [isOpen]="false" (onClose)="arizonaAccordionClose.next()"
+    <accordion-section title="Arizona" [isOpen]="false" (onClose)="arizonaAccordionClose.next()"
       (onOpen)="arizonaAccordionOpen.next()">
       <app-arizona></app-arizona>
-    </app-accordion-section>
+    </accordion-section>
 
-    <app-accordion-section heading="Florida" [isOpen]="false" (onClose)="floridaAccordionClose.next()"
+    <accordion-section title="Florida" [isOpen]="false" (onClose)="floridaAccordionClose.next()"
       (onOpen)="floridaAccordionOpen.next()">
       <app-florida></app-florida>
-    </app-accordion-section>
+    </accordion-section>
 
-    <app-accordion-section heading="California" [isOpen]="false" (onClose)="californiaAccordionClose.next()"
+    <accordion-section title="California" [isOpen]="false" (onClose)="californiaAccordionClose.next()"
       (onOpen)="californiaAccordionOpen.next()">
       <app-california></app-california>
-    </app-accordion-section>
+    </accordion-section>
 
   </accordion>
 </div>
