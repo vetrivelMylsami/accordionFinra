@@ -1,10 +1,13 @@
 # Finra
 
 ## About project
-1) Check console to check the status of Accordions
-
-2) We can open/close Accordion not only by 'click', also can 'tab to another Accordion & hit Enter-key to open/close'
-3) Components are used under each accordion-section, possible use cases upon closing/opening Accordion can be invoked when open/close events are emitted
+1) Accordion component created with Accordion-section components injected via <ng-content>
+2) Four Accordion-section components are created with the names 'Texas', 'Florida', 'California', 'Arizona'.
+3) Angular library created with the name 'Accordion-Finra-Lib'
+4) We can open/close Accordion not only by 'click', also can 'tab to another Accordion & hit Enter-key to open/close'
+5) Components or regular HTML can be used under each accordion-section
+6) Accordion-section default to 'closed', input-bind the value 'True' to property 'isOpen'.
+7) Accordion-section possess 'open/close' event-emitters which can be used to invoke possible use cases upon closing/opening Accordion.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
